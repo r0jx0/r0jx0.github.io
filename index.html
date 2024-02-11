@@ -2,7 +2,7 @@
 <head><script>const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const parameterValue = urlParams.get('r');
-if (parameterValue.startsWith("aliexpress://")){
+if (parameterValue.startsWith("aliexpress://") && parameterValue.includes("nsEx")){
 	window.location = parameterValue
 	
 }	
