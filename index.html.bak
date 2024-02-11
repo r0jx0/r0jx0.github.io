@@ -1,1 +1,9 @@
-"Hello world" 
+<html>
+<head><script>const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const parameterValue = urlParams.get('r');
+if (parameterValue.startsWith("aliexpress://")){
+	window.location = parameterValue</script></head>
+}
+<body></body>
+</html>
